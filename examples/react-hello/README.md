@@ -1,9 +1,27 @@
-# react-hello
+# react-hello [![Circle CI](https://circleci.com/gh/ericelliott/react-hello/tree/master.svg?style=svg)](https://circleci.com/gh/ericelliott/react-hello/tree/master)
+[![Travis-CI](https://travis-ci.org/ericelliott/react-hello.svg)](https://travis-ci.org/ericelliott/react-hello)
 
-A hello world example React app
+A Hello World example for React.
 
-Written for ["Baby’s First Reaction: A 'Hello, World' Example for React"](https://medium.com/javascript-scene/baby-s-first-reaction-2103348eccdd)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Contents
 
-For more, check out my new book, ["Learn JavaScript Isomorphic App Development with Node, ES6 & React"](https://leanpub.com/learn-javascript-react-nodejs-es6/)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
 
-["Learn JavaScript with Eric Elliott"](https://ericelliottjs.com) - A series of online JavaScript courses featuring short video lessons & lots of interactive exercises.
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Features
+
+No features yet
+
+## Getting Started
+
+Add your getting started instructions here.
+
+## Contributing
+
+- [Contributing](docs/contributing/index.md)
+  - [Versions: Release Names vs Version Numbers](docs/contributing/versions/index.md)

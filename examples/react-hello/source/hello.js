@@ -1,78 +1,34 @@
-const helloFactory = function ({ React }) {
-  const {
-    string,
-    func
-  } = React.PropTypes;
+import stamp from 'react-stampit';
 
-  return function Hello (props) {
+const Hello = (React) => {
+  const { string, func } = React.PropTypes;
 
-    // React wants propTypes & defaultProps
-    // to be static.
-    Hello.propTypes = {
+  return stamp(React, {
+    propTypes: {
       word: string,
-      mode: string,
-
       actions: React.PropTypes.shape({
         setWord: func.isRequired,
         setMode: func.isRequired
       })
-    };
+    },
 
-    return {
+    render () {
+      const {
+        word = 'World'
+      } = this.props;
 
-      props, // set props
+      const { setMode } = this.props.actions;
 
-
-      componentDidUpdate () {
-        this.refs.wordInput.getDOMNode().focus();
-      },
-
-      render () {
-        const {
-          word,
-          mode
-        } = this.props;
-
-        const {
-          setMode,
-          setWord
-        } = this.props.actions;
-
-        const styles = {
-          displayMode: {
-            display: (mode === 'display') ? 'inline' : 'none'
-          },
-
-          editMode: {
-            display: (mode === 'edit') ? 'inline' : 'none'
-          }
-        };
-
-        const onKeyUp = function (e) {
-          if (e.key !== 'Enter') return;
-
-          setWord(e.target.value);
-          setMode('display');
-        };
-
-        return (
-          <p>Hello,&nbsp;
-            <span
-              style = { styles.displayMode }
-              onClick = { () => setMode('edit') }
-              >{ word }!</span>
-            <input
-              ref = "wordInput"
-              style = { styles.editMode }
-              placeholder = { word }
-              onKeyUp = { onKeyUp } />
-          </p>
-        );
-      }
-    };
-
-  };
-
+      return (
+        <p><h1
+          className="hello-world"
+          name="hello"
+          onClick = { () => setMode('edit') }
+          >Hello, { word }!</h1>
+        </p>
+      );
+    }
+  });
 };
 
-export default helloFactory;
+export default Hello;

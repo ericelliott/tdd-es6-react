@@ -1,2 +1,3 @@
-# tdd-es6-react [![Circle CI](https://circleci.com/gh/ericelliott/tdd-es6-react/tree/master.svg?style=svg)](https://circleci.com/gh/ericelliott/tdd-es6-react/tree/master)
-[![Travis-CI](https://travis-ci.org/ericelliott/tdd-es6-react.svg)](https://travis-ci.org/ericelliott/tdd-es6-react)
+# TDD in ES6 and React Examples
+
+Written for [Learn JavaScript with Eric Elliott](https://ericelliottjs.com/product/lifetime-access-pass/).

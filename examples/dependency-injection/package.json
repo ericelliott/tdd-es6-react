@@ -1,0 +1,26 @@
+{
+  "name": "dependency-injection",
+  "description": "Tutorial Examples for TDD with ES6 &amp; React",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "babel-node test/index.js"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-loader": "^5.3.2",
+    "babel-plugin-object-assign": "^1.2.1",
+    "sinon": "^1.16.1",
+    "tape": "^4.2.0"
+  },
+  "author": "Eric Elliott <>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericelliott/tdd-es6-react/issues"
+  },
+  "homepage": "https://github.com/ericelliott/tdd-es6-react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericelliott/tdd-es6-react.git"
+  }
+}

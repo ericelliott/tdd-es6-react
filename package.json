@@ -1,0 +1,15 @@
+{
+  "name": "tdd-es6-react",
+  "description": "Tutorial Examples for TDD with ES6 and React",
+  "version": "1.0.0",
+  "author": "Eric Elliott <>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericelliott/tdd-es6-react/issues"
+  },
+  "homepage": "https://github.com/ericelliott/tdd-es6-react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericelliott/tdd-es6-react.git"
+  }
+}

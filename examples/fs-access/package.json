@@ -1,0 +1,20 @@
+{
+  "name": "fs-access",
+  "description": "Example of integration + unit tests for fs-access",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "babel-node test/index.js",
+    "test:unit": "babel-node test/unit-tests",
+    "start": "watch 'clear && npm run --silent test:unit' source"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "tape": "^4.2.0",
+    "watch": "^0.16.0"
+  },
+  "author": "Eric Elliott <>",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.4.0"
+  }
+}

@@ -4,7 +4,8 @@ Written for [Learn JavaScript with Eric Elliott](https://ericelliottjs.com/produ
 
 ## Examples
 
-* [The 5 Questions: Basic Unit Test](https://github.com/ericelliott/tdd-es6-react/blob/master/examples/compose-examples/test/index.js)
+* [5 Questions Unit Test Template](https://gist.github.com/ericelliott/bc4c0fb66973202f6680#file-answer-unit-test-questions-js)
+* [The 5 Questions Compose Example Test](https://github.com/ericelliott/tdd-es6-react/blob/master/examples/compose-examples/test/index.js)
 * [Dependency Injection](https://github.com/ericelliott/tdd-es6-react/blob/master/examples/dependency-injection/test/index.js)
 * [Nesting example: Component --> Context --> Results](https://github.com/ericelliott/tdd-es6-react/blob/master/examples/fs-access/test/unit-tests/configure.js)
 * [Unit Tests vs Integration: Filesystem Isolation](https://github.com/ericelliott/tdd-es6-react/tree/master/examples/fs-access)

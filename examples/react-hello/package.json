@@ -43,7 +43,7 @@
     "eslint-plugin-react": "^3.3.1",
     "faucet": "0.0.1",
     "isparta": "^3.0.3",
-    "jsdom": "^3.1.2",
+    "jsdom": "^6.5.1",
     "node-libs-browser": "^0.5.2",
     "nsp": "^1.0.3",
     "precommit-hook": "^3.0.0",

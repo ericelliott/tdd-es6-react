@@ -1,16 +1,13 @@
 import { jsdom } from 'jsdom';
 
 const createDocument = () => {
-  const idoc = jsdom(`<!doctype html><html><body></body></html>`);
-  const iframe = idoc.createElement('iframe');
-
-  const document = global.document = iframe.contentDocument;
-
-  global.window = iframe.contentWindow;
-
-  idoc.body.appendChild(iframe);
-
+  
+  const document = jsdom(undefined);
+  const window = document.defaultView;
+  global.document = document;
+  global.window= window;
   return document;
+
 };
 
 export default createDocument;
